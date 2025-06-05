@@ -12,12 +12,13 @@ dados_gabi[0] = 28
 dados_gabi
 
 # %%
-tupla_gabi = (20, 1, "Solteiro", "dev goLang")
+tupla_gabi = (20, 1, "Solteiro", "dev goLang", ["maria", "antonia", "ana"])
 
 print(type(tupla_gabi))
 print(tupla_gabi)
 
 # %%
-tupla_gabi[0] = 28
+tupla_gabi[-1].append("ana")
 
 # %%
+tupla_gabi
