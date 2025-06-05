@@ -43,3 +43,10 @@ for i in dados_gabi:
 # %%
 for chave, valor in dados_gabi.items():
     print(chave, "->", valor)
+
+# %%
+
+dados_gabi["estado civil"] = "solteiro"
+dados_gabi["fds"] = None
+# %%
+dados_gabi
