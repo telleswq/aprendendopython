@@ -13,6 +13,6 @@ def juros_compostos(aporte:int, taxa:float, anos:int)->float:
 
 # %%
 
-juros_compostos(aporte=1000, taxa=0.13, anos=5)
-
+valor = juros_compostos(aporte=1000, taxa=0.13, anos=5)
+type(valor)
 
