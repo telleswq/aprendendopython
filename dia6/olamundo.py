@@ -1,8 +1,10 @@
 # %%
 
 def ola_mundo():
-    print("Boas vindas! Olá pra você!")
+    msg = "Boas vindas! Olá pra você!"
+    print(msg)
 
 # %%
 
 ola_mundo()
+# %%
